@@ -1,0 +1,80 @@
+/* font-family: 'Hedvig Letters Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: rgb(243, 224, 238);
+}
+
+.card{
+    text-align: center;
+    background-color: rgb(251, 243, 251);
+    width: 600px;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 30px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.164);
+    overflow: hidden;
+}
+
+h2{
+    font-family: 'Hedvig Letters Serif', serif;
+}
+
+h3{
+    font-family: 'Hedvig Letters Serif', serif;
+    float: left;
+    line-height: 60px;
+}
+
+h4{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    color: rgba(176, 176, 176, 0.531);
+    margin-top: 10px;
+}
+
+p{
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    color: gray;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+button{
+    font-family: 'PT Sans', sans-serif;
+    color: white;
+    background-color: rgb(149, 240, 210);
+    border: none;
+    border-radius: 60px;
+    width: 200px;
+    height: 60px;
+    font-size: large;
+    margin-bottom: 40px;
+    /* margin-top: 10px; */
+    float: right;
+}
+
+img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    float: left;
+
+}
+
+.info{
+    float: right;
+    width: 300px;
+    text-align: left;
+    padding: 20px;
+    box-sizing: border-box;
+}
